@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/5app/prettier-config/compare/v1.0.2...v1.0.3) (2022-08-24)
+
+
+### Bug Fixes
+
+* **commonjs:** prefer commonjs, otherwise can't install ([34a079d](https://github.com/5app/prettier-config/commit/34a079d6a76a0c192f7073b0288943d0798cdd01))
+
 ## [1.0.2](https://github.com/5app/prettier-config/compare/v1.0.1...v1.0.2) (2022-08-24)
 
 
