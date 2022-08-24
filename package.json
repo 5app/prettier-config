@@ -1,27 +1,30 @@
 {
-	"name": "@5app/package-template",
+	"name": "@5app/prettier-config",
 	"version": "1.2.2",
 	"private": true,
 	"description": "Description",
 	"main": "index.js",
 	"type": "module",
+	"files": [
+		"./index.js"
+	],
 	"scripts": {
 		"prepare": "husky install",
 		"lint": "eslint ./",
 		"lint-fix": "npm run lint -- --fix",
 		"lint-diff": "LIST=`git diff-index --name-only HEAD | grep '.*\\.js$';`; if [ \"$LIST\" ]; then eslint $LIST; fi",
 		"precommit-msg": "echo 'Running pre-commit checks... (skip using --no-verify)'",
-		"test": "echo 'implement tests'"
+		"test": "npm run lint"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/5app/package-template.git"
+		"url": "git+https://github.com/5app/prettier-config.git"
 	},
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/5app/package-template/issues"
+		"url": "https://github.com/5app/prettier-config/issues"
 	},
-	"homepage": "https://github.com/5app/package-template#readme",
+	"homepage": "https://github.com/5app/prettier-config#readme",
 	"devDependencies": {
 		"@5app/semantic-release-config": "^1.0.1",
 		"@commitlint/cli": "^17.0.3",
