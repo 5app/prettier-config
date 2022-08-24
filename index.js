@@ -1,7 +1,7 @@
 /**
  * Shareable prettier config
  */
-const config = {
+module.exports = {
 	arrowParens: 'avoid',
 	bracketSpacing: false,
 	semi: true,
@@ -10,5 +10,3 @@ const config = {
 	trailingComma: 'es5',
 	useTabs: true,
 };
-
-export default config;
