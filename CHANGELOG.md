@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/5app/prettier-config/compare/v1.0.3...v1.0.4) (2022-09-07)
+
+
+### Bug Fixes
+
+* **package:** add to github registry ([6185d90](https://github.com/5app/prettier-config/commit/6185d9007ed23a7a4dfc3c6b66d42d4335c295e6))
+
 ## [1.0.3](https://github.com/5app/prettier-config/compare/v1.0.2...v1.0.3) (2022-08-24)
 
 
